@@ -9,7 +9,11 @@ using namespace std;
 #include"operator.h"
 int main(void)
 {
-
+	Add i,j,k;
+	i.setdata(4,5);
+	j.setdata(9,3);
+	k=i+j;
+	k.display();
 	return 1;
 }
 
